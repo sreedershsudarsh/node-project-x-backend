@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/hi', (req, res) => {
-  res.send('API is working!id snsidhjddjd nbn sreedeehshsh');
+  res.send('API is working!id ');
 });
 
 const PORT = process.env.PORT || 4000;
