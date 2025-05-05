@@ -1,7 +1,9 @@
-const express = require('express');
+
+import express from 'express';
+
 const app = express();
 
-app.get('/', (req, res) => {
+app.get('/hi', (req, res) => {
   res.send('Hello from the Node server!');
 });
 
